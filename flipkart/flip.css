@@ -7,7 +7,13 @@ body{
 }
 #header{
     background-color: #fff;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+     justify-content: center;
+    gap:60px;
+}
+.main:hover{
+    color: rgb(93, 93, 247);
 }
 .con{
     display: inline;
@@ -87,16 +93,15 @@ body{
     margin-top:15px;
 }
  #extra{
-    width:30%;
- background-color: #fff;
- justify-content: center;
  display: flex;
- flex-direction: row;
  }
 .home{
+    background-color: #fff;
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap:1px;
+    width:30%;
+    margin-left:12px;
 }
 #footer{
     background-color:black;
@@ -106,5 +111,11 @@ body{
     padding: 40px;
     column-gap: 12px;
     text-align:left;
+    margin: 12px;;
 }
-
+#sell{
+    margin-left: 10px;
+}
+h1{
+    margin-left: 12px;
+}
